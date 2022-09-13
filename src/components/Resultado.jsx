@@ -52,7 +52,7 @@ const Resultado = ({resultado}) => {
                     <Texto>Última Actualización:<span> {LASTUPDATE}</span></Texto>
                 </div>
                 <ImgContainer>
-                    <img src={`https://www.cryptocompare.com/${IMAGEURL}`} alt="imagen cripto" />
+                    <Imagen src={`https://www.cryptocompare.com/${IMAGEURL}`} alt="imagen cripto" />
                 </ImgContainer>
             </ConteFlex>
 
